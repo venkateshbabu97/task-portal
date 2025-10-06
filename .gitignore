@@ -1,0 +1,38 @@
+# Laravel core folders
+/vendor/
+node_modules/
+
+# Environment and config
+.env
+.env.backup
+.env.example.local
+.phpunit.result.cache
+
+# Laravel specific
+/public/storage
+/storage/*.key
+/storage/debugbar/
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+
+# IDE and OS junk
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# NPM/Yarn
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Composer lock (optional)
+# composer.lock
+
+# Backup files
+*.bak
+*.swp
+*.tmp
